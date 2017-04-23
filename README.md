@@ -4,12 +4,20 @@ Get a short phrase that Tuxedo Mask might say.
 
 ## Example
 
+After cloning and npm installing, run:
+
 ```bash
 $ node index.js
 
 I am Tuxedo Mask.
 You did really well against that circus performer.
 Look into your heart and find the strong warrior within.
+```
+
+Or, if you're on a Mac and wanting a little extra flavor:
+
+```bash
+$ node index | say -v Alex
 ```
 
 ## Links
