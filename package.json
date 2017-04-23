@@ -1,0 +1,34 @@
+{
+  "name": "apep-tuxedo-mask",
+  "version": "0.0.0",
+  "description": "Get a short phrase that Tuxedo Mask might say.",
+  "author": "Rachael Shaw and Mike McNeil",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikermcneil/apep-tuxedo-mask.git"
+  },
+  "keywords": [
+    "sailor-moon",
+    "tuxedo-mask",
+    "generative-ai",
+    "dada",
+    "dada-engine",
+    "apep"
+  ],
+  "scripts": {
+    "test": "npm run lint && npm run custom-tests && echo 'Done.'",
+    "lint": "node ./node_modules/eslint/bin/eslint . --max-warnings=0 && echo '✔  Your code looks good.'",
+    "custom-tests": "echo \"(No other custom tests yet.)\" && echo"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@sailshq/apep": "^1.3.2",
+    "apep-md": "0.0.1",
+    "apep-std-transformations": "0.1.0",
+    "apep-std-vars": "0.0.0"
+  },
+  "devDependencies": {
+    "eslint": "3.5.0"
+  }
+}
