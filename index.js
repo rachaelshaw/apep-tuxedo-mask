@@ -79,7 +79,10 @@ const POSITIVE_PEARL_OF_WISDOM = pep.choice(
 );
 
 const NEUTRAL_INFORMATIVE_PEARL_OF_WISDOM = pep.choice(
-  'a cram school is where students study to prepare for high school entrance exams'
+  'a cram school is where students study to prepare for high school entrance exams',
+  'a promise ring is the ring of hope',
+  'bombs are not fit for the summer beach, a garden of beauties in swimsuits',
+  'the drum is a percussion instrument. If used correctly, it can touch peoples\' hearts',
 );
 
 const NEGATIVE_PEARL_OF_WISDOM = pep.choice(
